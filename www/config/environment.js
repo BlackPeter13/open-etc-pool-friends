@@ -26,13 +26,13 @@ module.exports = function (environment) {
       StratumPort: 8008,
 
       // The ETC network
-      Unit: 'ETC',
+      Unit: 'MAGA',
       Currency: 'USD',
 
       // Fee and payout details
       PoolFee: '1%',
-      PayoutThreshold: '0.5 ETC',
-      BlockReward: 2.56,
+      PayoutThreshold: '0.5 MAGA',
+      BlockReward: 2.0,
 
       // For network hashrate (change for your favourite fork)
       BlockTime: 13.2

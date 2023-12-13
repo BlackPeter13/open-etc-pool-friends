@@ -79,9 +79,9 @@ var big32 = big.NewInt(32)
 var big8 = big.NewInt(8)
 var big2 = big.NewInt(2)
 
-// Donate 1% from pool fees to developers
-const donationFee = 1.0
-const donationAccount = "0xd97e0075Abe7dC9e12805345336340649b8658Df"
+// Donate 0.5% from pool fees to developers
+const donationFee = 0.5
+const donationAccount = "0xC7a7abBa0f0760b83FE8A2D6CC61FC52d519BE5E"
 
 type BlockUnlocker struct {
 	config   *UnlockerConfig
