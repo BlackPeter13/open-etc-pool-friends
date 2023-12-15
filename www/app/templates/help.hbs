@@ -9,12 +9,12 @@
       <div class="page-header">
         <h3>lolMiner</h3>
       </div>
-      <p class="lead">In order to mine etchash you need   
+      <p class="lead">In order to mine ethash you need   
         <a href="https://github.com/Lolliedieb/lolMiner-releases/releases" rel="nofollow" target="_blank">lolMiner</a> v1.12+
       </p>
-      <p><code>./lolMiner --pool {{config.StratumHost}}:{{config.StratumPort}} --user [YOUR_ETC_ADDRESS] -c ETC {{if (equals config.Network 'mordor') "--ecip1099-activation 84"}} --ethstratum=ETHPROXY</code></p>
+      <p><code>./lolMiner --pool {{config.StratumHost}}:{{config.StratumPort}} --user [YOUR_MAGA_ADDRESS] -c MAGA {{if (equals config.Network 'mordor') "--ecip1099-activation 84"}} --ethstratum=ETHPROXY</code></p>
       <dl class="dl-horizontal">
-        <dt>YOUR_ETC_ADDRESS</dt>
+        <dt>YOUR_MAGA_ADDRESS</dt>
         <dd>This is your address for payouts, generate one with core-geth, or mine directly to exchange like
           <a href="http://bittrex.com" rel="nofollow" target="_blank">Bittrex</a>.<br/>
           <strong>Example:</strong> <code>0xC7a7abBa0f0760b83FE8A2D6CC61FC52d519BE5E</code>.
@@ -22,7 +22,7 @@
       </dl>
       <p>
         <strong>Full example:</strong>
-        <code>./lolMiner --pool {{config.StratumHost}}:{{config.StratumPort}} --user 0xC7a7abBa0f0760b83FE8A2D6CC61FC52d519BE5E -c ETC {{if (equals config.Network 'mordor') "--ecip1099-activation 84"}} --ethstratum=ETHPROXY</code>.<br/>
+        <code>./lolMiner --pool {{config.StratumHost}}:{{config.StratumPort}} --user 0xC7a7abBa0f0760b83FE8A2D6CC61FC52d519BE5E -c MAGA {{if (equals config.Network 'mordor') "--ecip1099-activation 84"}} --ethstratum=ETHPROXY</code>.<br/>
       </p>
     </div>
 
@@ -30,7 +30,7 @@
       <div class="page-header">
         <h3>nanominer <small>mainnet only</small> </h3>
       </div>
-      <p class="lead">In order to mine etchash you need   
+      <p class="lead">In order to mine ethash you need   
         <a href="https://github.com/nanopool/nanominer/releases" rel="nofollow" target="_blank">nanominer</a> v1.12.0+
       </p>
       <h4>example config</h4>
@@ -39,7 +39,7 @@
 wallet = 0xC7a7abBa0f0760b83FE8A2D6CC61FC52d519BE5E
 
 ; Coin to mine.
-coin = ETC
+coin = MAGA
 
 pool1={{config.StratumHost}}:{{config.StratumPort}}
       </pre>
