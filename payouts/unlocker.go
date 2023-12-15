@@ -109,7 +109,7 @@ func NewBlockUnlocker(cfg *UnlockerConfig, backend *storage.RedisClient, network
 	case "ethereum":
 		cfg.ByzantiumFBlock = big.NewInt(4370000)
 		cfg.ConstantinopleFBlock = big.NewInt(7280000)
-	case "ethereumPow", "etica", "callisto", "ubiq", "octaspace", "universal", "canxium":
+	case "ethereumPow", "etica", "callisto", "ubiq", "octaspace", "universal", "canxium", "qie", "maga":
 		// Nothing needs configuring here, simply proceed.
 	case "ethereumFair":
 		cfg.ByzantiumFBlock = big.NewInt(4370000)
