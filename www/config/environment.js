@@ -15,15 +15,15 @@ module.exports = function (environment) {
 
     APP: {
       // API host and port
-      ApiUrl: '//192.168.178.27/',
+      ApiUrl: '//pool.realmagacoin.com/',
 
       // HTTP mining endpoint
-      HttpHost: 'http://192.168.178.27',
+      HttpHost: 'pool.realmagacoin.com',
       HttpPort: 8888,
 
       // Stratum mining endpoint
-      StratumHost: 'example.net',
-      StratumPort: 8008,
+      StratumHost: 'pool.realmagacoin.com',
+      StratumPort: 3042,
 
       // The ETC network
       Unit: 'MAGA',
