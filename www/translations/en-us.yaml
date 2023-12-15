@@ -60,9 +60,9 @@ home:
   help:
     minimal: help-minimal
   settings:
-    difficulty: (difficulty {diff} billion)
+    difficulty: (difficulty {diff} million)
     help: CLICK FOR HELP
-    title: WORKER {hashes} MH/s
+    title: WORKER {hashes} KH/s
     stratum_mining: Stratum Mining
     commands:
       windows: Windows

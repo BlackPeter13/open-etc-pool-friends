@@ -13,7 +13,7 @@
 		"behindReverseProxy": false,
 		"blockRefreshInterval": "50ms",
 		"stateUpdateInterval": "3s",
-		"difficulty": 8589934592,
+		"difficulty": 1000000,
 		"hashrateExpiration": "3h",
 		"stratumHostname": "example.org",
 		"healthCheck": true,
