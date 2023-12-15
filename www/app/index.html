@@ -13,9 +13,6 @@
     <link rel="stylesheet" href="{{rootURL}}assets/open-etc-pool.css">
     <link rel="shortcut icon" type="image/x-icon" href="{{rootURL}}favicon.png" />
 
-    <!-- For Block Found Pop-up -->
-    <!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">-->
-
     {{content-for "head-footer"}}
   </head>
   <body>
@@ -24,47 +21,9 @@
     <script src="{{rootURL}}assets/vendor.js"></script>
     <script src="{{rootURL}}assets/open-etc-pool.js"></script>
 
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
-    <script>
-      var lastBlockHeight = 0;
-      function fetchBlocks() {
-        fetch('{{rootURL}}api/blocks')
-          .then(response => response.json())
-          .then(data => {
-            var blocks = data.candidates;
-            var latestBlock = blocks[0];
-
-            if (latestBlock.height > lastBlockHeight) {
-              showNotification(latestBlock.height, latestBlock.worker); // przekazanie wartosci worker do funkcji showNotification()
-              lastBlockHeight = latestBlock.height;
-            }
-          })
-          .catch(error => {
-          });
-      }
-      setInterval(fetchBlocks, 5000);
-      function showNotification(blockHeight, worker) {
-        Toastify({
-          text: "New Block Found!\nBlock Height: " + blockHeight + " Worker: " + worker,
-          duration: 5000,
-          gravity: "top",
-          position: "right",
-          stopOnFocus: true,
-          className: "info",
-        style: {
-        background: "linear-gradient(to right, #33ccff, #33ccff)",
-        },
-        }).showToast();
-      }
-    </script>
-    -->
-
     {{content-for "body-footer"}}
 
     <footer class="footer">
-      <!-- For Coin Price Tab -->
-      <!--<script type="text/javascript" src="https://unpkg.com/@coinpaprika/widget-currency/dist/widget.min.js"></script><div class="coinpaprika-currency-widget cp-widget__night-mode" data-primary-currency="usd" data-currency="etc-ethereum-classic" data-modules='["market_details"]' data-update-active="false"></div>-->
       <div class="container">
         <div class="text-center">
           <div class="row">
