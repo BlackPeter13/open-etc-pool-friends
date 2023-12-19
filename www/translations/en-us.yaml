@@ -69,6 +69,26 @@ home:
       smos: SimpleMining
       windows_instruction: Add this to your bat file
       smos_instruction: Add this into your new Rig Group
+  settings4g:
+    difficulty: (difficulty {diff} billion)
+    help: CLICK FOR HELP
+    title: WORKER {hashes} MH/s
+    stratum_mining: Stratum Mining
+    commands:
+      windows: Windows
+      smos: SimpleMining
+      windows_instruction: Add this to your bat file
+      smos_instruction: Add this into your new Rig Group
+  settingsnh:
+    difficulty: (difficulty {diff} billion)
+    help: CLICK FOR HELP
+    title: WORKER {hashes} MH/s
+    stratum_mining: Stratum Mining
+    commands:
+      windows: Windows
+      smos: SimpleMining
+      windows_instruction: Add this to your bat file
+      smos_instruction: Add this into your new Rig Group
 
 account:
   immature:

@@ -25,7 +25,14 @@ module.exports = function (environment) {
       StratumHost: 'example.net',
       StratumPort: 8008,
 
+      StratumHost_4g: '192.168.178.27',
+      StratumPort_4g: 8009,
+
+      NicehashHost: '192.168.178.27',
+      NicehashPort: 8010,
+
       // The ETC network
+      CoinName: 'Ethereum Classic',
       Unit: 'ETC',
       Currency: 'USD',
 
