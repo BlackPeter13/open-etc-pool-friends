@@ -52,7 +52,7 @@
     "loader.js": "^4.2.3"
   },
   "dependencies": {
-    "jdenticon": "^2.1.0",
+    "jdenticon": "^3.2.0",
     "node": "^10.19.0"
   }
 }
